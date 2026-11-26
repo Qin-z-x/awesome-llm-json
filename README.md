@@ -118,6 +118,8 @@ Below is a list of hosted API models that support multiple parallel function cal
 
 [Transformers-cfg](https://github.com/epfl-dlab/transformers-CFG) (MIT) extends Hugging Face Transformers with context-free grammar (CFG) support via an EBNF interface. It enables grammar-constrained generation with minimal changes to existing code of transformers and supports JSON mode and JSON Schema.
 
+[llm-json-doctor](https://github.com/Qin-Z-x/llm-json-doctor) (MIT) is a deterministic repair and validation library for malformed LLM JSON - markdown fences, single quotes, trailing commas, Python literals, truncation - that logs every repair action and validates the result against a JSON Schema. Standard library only, no LLM calls, no network.
+
 ## Blog Articles
 
 [How fast can grammar-structured generation be?](http://blog.dottxt.co/how-fast-cfg.html) (2024-04-12, .txt Engineering) demonstrates an almost cost-free method to generate text that follows a grammar. It is shown to outperform `llama.cpp` by a factor of 50x on the C grammar.
